@@ -15,10 +15,10 @@ Exercise 2:
 */
 
 // Complete Exercise 2 below...
+foods.push("pizza", "cheeseburger")
 
 
-
-console.log('Exercise 2 Result:\n',  foods);
+console.log('Exercise 2 Result:\n', foods);
 
 /*
 Exercise 3:
@@ -27,7 +27,7 @@ Exercise 3:
 
 // Complete Exercise 3 below...
 
-
+foods.unshift("taco")
 
 console.log('Exercise 3 Result:\n', foods);
 
@@ -36,7 +36,10 @@ Exercise 4:
   - Access the string 'pizza' (based upon its known position) in the foods array and assign to a variable named favFood.
 */
 
+
 // Complete Exercise 4 below...
+let favFood=foods[1]
+
 
 
 
@@ -48,7 +51,7 @@ Exercise 5:
 */
 
 // Complete Exercise 5 below...
-
+foods.splice(2,0,"tofu")
 
 
 console.log('Exercise 5 Result:\n', foods);
@@ -59,7 +62,7 @@ Exercise 6:
 */
 
 // Complete Exercise 6 below...
-
+foods.splice(1,1, "sushi", "cupcake")
 
 
 console.log('Exercise 6 Result:\n', foods);
